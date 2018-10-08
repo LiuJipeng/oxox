@@ -106,7 +106,7 @@ ul, li {
 body>* {
     max-width: 580px;
     margin: 0 auto;
-    padding: 0 23px;
+    padding-bottom: 5%;
 }
 
 .header {
