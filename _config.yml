@@ -1,0 +1,20 @@
+encoding: utf-8
+
+# seo
+title: LiuJipeng
+description: Nice Day ！
+keywords: LiuJipeng,liujipeng,刘纪鹏
+author: LiuJipeng
+
+# "","/blog"
+context: ""
+"siteMapPrefix": "http://liujipeng.com"
+
+## 文章url前缀 context/自定义，下面的context为''
+permalink: /posts/:year/:month/:day/:title.html
+
+copyright: 
+record: "鲁ICP备  号"
+
+coderay:
+  coderay_tab_width: 4

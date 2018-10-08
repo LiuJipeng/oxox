@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="content-language" content="zh-CN" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="keywords" content="LiuJipeng"/>
+		<meta name="author" content="LiuJipeng" />
+		<meta name="description" content="Nice Day!"/>
+		<link rel="icon" href="/static/img/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" href="/static/css/blog.css">
+		<link rel="stylesheet" href="/static/css/blog-post.css">
+		<script>window.blog={contextPath:""}</script>
+		<script type="text/javascript" src="/static/js/blog.js"></script>
+		<title>LiuJipeng</title>
+	</head>
+<body>
+<header class="header select-none">
+    <a class="logo" title="TMaize Blog" href="/">
+        <img src="/static/img/logo.png">
+    </a>
+    <a class="title" href="/">TMaize Blog</a>
+    <nav class="menu">
+        <a href="/pages/blog.html">Blog</a>
+        <a href="/pages/categories.html">Categories</a>
+        <a href="/pages/search.html">Search</a>
+        <a href="/pages/links.html">Links</a>
+        <a href="/pages/chat.html">Chat</a>
+        <a href="/pages/about.html">About</a>
+    </nav>
+    <span class="icon"></span>
+</header>
+    <div class="main animation-fadeUp post">
+	<h1 class="title">搜索</h1>
+</div>
+<div class="main animation-fadeUp">
+	<input id="search-input" type="text" placeholder="小技巧：空格分隔多个关键字^_^"></input>
+	<div>
+		<div class="list-group">
+			<ul id="search-list"></ul>
+		</div>
+	</div>
+	<div id="search-templete" class="hide">
+		<li class="info animation-fadeUp">
+			<span class="time">日期</span>
+			<a class="title">标题</a>
+			<span class="categories">
+				<a baseUrl="${global.config.context}/pages/categories.html#">分类名</a>
+			</span>
+		</li>
+	</div>
+	<style>
+		#search-input{
+			font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+			color: #313131;
+			display: block;
+			outline: 0;
+			width: 100%;
+			text-align: center;
+			margin: 0 0 30px 0;
+			padding: 0 0 10px 0;
+			border: 0;			
+			border-bottom: 2px solid #eee;
+		}
+		@media screen and (max-width: 600px){
+			#search-list {
+				padding-left: 10px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		}
+	</style>
+</div>
+
+
+<footer class="footer"> 
+    <span>Powered by</span>
+    <a href="https://liujipeng.com">LiuJipeng</a>
+	<a href="/sitemap.xml">SITMAP</a>
+    <div class="up"></div>
+</footer>
+<script>
+    
+    //百度的自动推送
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+</body>
+</html>
