@@ -104,9 +104,10 @@ ul, li {
 }
 
 body>* {
-    max-width: 580px;
+	position:relative;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 23px;
+     padding-bottom: 50px;
 }
 
 .header {
@@ -183,7 +184,7 @@ body>* {
 body>.footer {
     margin-top: 30px;
 	position:absolute; 
-	bottom: 5%;
+	bottom: 10px;
 	display: block;
 	width: 250px;
 	left:50%;
