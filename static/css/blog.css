@@ -4,6 +4,9 @@ html, body {
 }
 
 body {
+	display:flex;
+    flex-direction: column;
+    height: 100%;
     font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
     font-size: 15px;
     line-height: 1.8;
@@ -110,6 +113,7 @@ body>* {
 }
 
 .header {
+	flex: 0 0 auto;
     margin-top: 40px;
     margin-bottom: 50px;
 }
@@ -181,10 +185,9 @@ body>* {
 }
 
 body>.footer {
+	flex: 0 0 auto;
     margin-top: 30px;
-	margin-bottom: 30px;
-	margin-right: auto;
-	margin-left: auto;
+
 }
 
 .footer .up {
