@@ -4,6 +4,9 @@ html, body {
 }
 
 body {
+	display:flex;
+    flex-direction: column;
+    height: 100%;
     font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
     font-size: 15px;
     line-height: 1.8;
@@ -110,6 +113,7 @@ body>* {
 }
 
 .header {
+	flex: 0 0 auto;
     margin-top: 40px;
     margin-bottom: 50px;
 }
@@ -181,14 +185,9 @@ body>* {
 }
 
 body>.footer {
-	font-size: 10px;
-    margin-top: 30px;
-	position:absolute; 
-	bottom: 5%;
-	display: block;
-	width: 250px;
-	left:50%;
-	margin-left:-125px;
+	flex: 0 0 auto;
+    margin-botton: 5px;
+
 }
 
 .footer .up {
